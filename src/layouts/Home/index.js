@@ -52,6 +52,9 @@ class Home extends Component {
                                 <div className="slds-card__body">
                                     <div className="slds-grid">
                                         <div className="slds-col slds-size_1-of-2">
+                                            <div className="slds-text-heading_small slds-m-bottom_x-small">
+                                                First Party DCs
+                                            </div>
                                             <ul className="slds-welcome-mat__tiles">
                                                 <li className="slds-welcome-mat__tile">
                                                     <ProductWrap name="Rackbot"/>
@@ -68,6 +71,9 @@ class Home extends Component {
                                             </ul>
                                         </div>
                                         <div className="slds-col slds-size_1-of-2">
+                                            <div className="slds-text-heading_small slds-m-bottom_x-small">
+                                                Public
+                                            </div>
                                             <ul className="slds-welcome-mat__tiles">
                                                 <li className="slds-welcome-mat__tile">
                                                     <ProductWrap name="AWS" imageUrl="/images/thirdparty/aws.svg"/>
