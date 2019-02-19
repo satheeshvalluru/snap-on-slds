@@ -43,11 +43,11 @@ class Navigation extends Component {
                             id="home-link"/>
                         <GlobalNavigationBarLink
                             href="javascript:void(0);"
-                            label="Expose"
+                            label="Intent Designer"
                             id="home-link"/>
                         <GlobalNavigationBarLink
                             href="javascript:void(0);"
-                            label="Compose"
+                            label="Y-Axis"
                               id="home-link"/>
                     </GlobalNavigationBarRegion>
                 </GlobalNavigationBar>
