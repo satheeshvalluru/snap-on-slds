@@ -1,8 +1,10 @@
 import React, {Component} from 'react'
-import {IconSettings, Card} from '@salesforce/design-system-react';
+import {IconSettings} from '@salesforce/design-system-react';
 
 import Header from "components/Header";
 import Navigation from "components/Navigation";
+
+import {ProductWrap} from "components/Widgets";
 
 import './index.scss';
 
@@ -50,157 +52,37 @@ class Home extends Component {
                                 <div className="slds-card__body">
                                     <div className="slds-grid">
                                         <div className="slds-col slds-size_1-of-2">
+                                            <div className="slds-text-heading_small slds-m-bottom_x-small">
+                                                First Party DCs
+                                            </div>
                                             <ul className="slds-welcome-mat__tiles">
                                                 <li className="slds-welcome-mat__tile">
-                                                    <div className="slds-media">
-                                                        <div
-                                                            className="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center">
-                                                            <div className="slds-welcome-mat__tile-figure">
-                                                                <div className="slds-welcome-mat__tile-icon-container">
-                                                                    <span className="slds-icon_container slds-icon-utility-animal_and_nature">
-                                                                        <svg className="slds-icon slds-icon-text-default" aria-hidden="true">
-                                                                            <use xlinkHref="/icons/utility-sprite/svg/symbols.svg#animal_and_nature"></use>
-                                                                        </svg>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="slds-media__body">
-                                                            <div className="slds-welcome-mat__tile-body">
-                                                                <h3 className="slds-welcome-mat__tile-title">Rackbot</h3>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    <ProductWrap name="Rackbot"/>
                                                 </li>
                                                 <li className="slds-welcome-mat__tile">
-                                                    <div className="slds-media">
-                                                        <div
-                                                            className="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center">
-                                                            <div className="slds-welcome-mat__tile-figure">
-                                                                <div className="slds-welcome-mat__tile-icon-container">
-                                                                    <span className="slds-icon_container slds-icon-utility-animal_and_nature">
-                                                                        <svg className="slds-icon slds-icon-text-default" aria-hidden="true">
-                                                                            <use xlinkHref="/icons/utility-sprite/svg/symbols.svg#animal_and_nature"></use>
-                                                                        </svg>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="slds-media__body">
-                                                            <div className="slds-welcome-mat__tile-body">
-                                                                <h3 className="slds-welcome-mat__tile-title">VMware vSphere</h3>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    <ProductWrap name="VMware vSphere" imageUrl="/images/thirdparty/vsphere.svg"/>
                                                 </li>
                                                 <li className="slds-welcome-mat__tile">
-                                                    <div className="slds-media">
-                                                        <div
-                                                            className="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center">
-                                                            <div className="slds-welcome-mat__tile-figure">
-                                                                <div className="slds-welcome-mat__tile-icon-container">
-                                                                    <span className="slds-icon_container slds-icon-utility-animal_and_nature">
-                                                                        <svg className="slds-icon slds-icon-text-default" aria-hidden="true">
-                                                                            <use xlinkHref="/icons/utility-sprite/svg/symbols.svg#animal_and_nature"></use>
-                                                                        </svg>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="slds-media__body">
-                                                            <div className="slds-welcome-mat__tile-body">
-                                                                <h3 className="slds-welcome-mat__tile-title">OpenStack</h3>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    <ProductWrap name="Openstack" imageUrl="/images/thirdparty/openstack.svg"/>
                                                 </li>
                                                 <li className="slds-welcome-mat__tile">
-                                                    <div className="slds-media">
-                                                        <div
-                                                            className="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center">
-                                                            <div className="slds-welcome-mat__tile-figure">
-                                                                <div className="slds-welcome-mat__tile-icon-container">
-                                                                    <span className="slds-icon_container slds-icon-utility-animal_and_nature">
-                                                                        <svg className="slds-icon slds-icon-text-default" aria-hidden="true">
-                                                                            <use xlinkHref="/icons/utility-sprite/svg/symbols.svg#animal_and_nature"></use>
-                                                                        </svg>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="slds-media__body">
-                                                            <div className="slds-welcome-mat__tile-body">
-                                                                <h3 className="slds-welcome-mat__tile-title">Kubernetes</h3>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    <ProductWrap name="Kubernetes" imageUrl="/images/thirdparty/kubernetes.svg"/>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div className="slds-col slds-size_1-of-2">
+                                            <div className="slds-text-heading_small slds-m-bottom_x-small">
+                                                Public
+                                            </div>
                                             <ul className="slds-welcome-mat__tiles">
                                                 <li className="slds-welcome-mat__tile">
-                                                    <div className="slds-media">
-                                                        <div
-                                                            className="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center">
-                                                            <div className="slds-welcome-mat__tile-figure">
-                                                                <div className="slds-welcome-mat__tile-icon-container">
-                                                                    <span className="slds-icon_container slds-icon-utility-animal_and_nature">
-                                                                        <svg className="slds-icon slds-icon-text-default" aria-hidden="true">
-                                                                            <use xlinkHref="/icons/utility-sprite/svg/symbols.svg#animal_and_nature"></use>
-                                                                        </svg>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="slds-media__body">
-                                                            <div className="slds-welcome-mat__tile-body">
-                                                                <h3 className="slds-welcome-mat__tile-title">AWS</h3>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    <ProductWrap name="AWS" imageUrl="/images/thirdparty/aws.svg"/>
                                                 </li>
                                                 <li className="slds-welcome-mat__tile">
-                                                    <div className="slds-media">
-                                                        <div
-                                                            className="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center">
-                                                            <div className="slds-welcome-mat__tile-figure">
-                                                                <div className="slds-welcome-mat__tile-icon-container">
-                                                                    <span className="slds-icon_container slds-icon-utility-animal_and_nature">
-                                                                        <svg className="slds-icon slds-icon-text-default" aria-hidden="true">
-                                                                            <use xlinkHref="/icons/utility-sprite/svg/symbols.svg#animal_and_nature"></use>
-                                                                        </svg>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="slds-media__body">
-                                                            <div className="slds-welcome-mat__tile-body">
-                                                                <h3 className="slds-welcome-mat__tile-title">GCP</h3>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    <ProductWrap name="GCP" imageUrl="/images/thirdparty/gcp.svg"/>
                                                 </li>
                                                 <li className="slds-welcome-mat__tile">
-                                                    <div className="slds-media">
-                                                        <div
-                                                            className="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center">
-                                                            <div className="slds-welcome-mat__tile-figure">
-                                                                <div className="slds-welcome-mat__tile-icon-container">
-                                                                    <span className="slds-icon_container slds-icon-utility-animal_and_nature">
-                                                                        <svg className="slds-icon slds-icon-text-default" aria-hidden="true">
-                                                                            <use xlinkHref="/icons/utility-sprite/svg/symbols.svg#animal_and_nature"></use>
-                                                                        </svg>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="slds-media__body">
-                                                            <div className="slds-welcome-mat__tile-body">
-                                                                <h3 className="slds-welcome-mat__tile-title">Azure</h3>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    <ProductWrap name="Azure" imageUrl="/images/thirdparty/azure.svg"/>
                                                 </li>
                                             </ul>
                                         </div>
@@ -221,25 +103,9 @@ class Home extends Component {
                                 <div className="slds-card__body slds-p-horizontal_small">
                                     <ul className="slds-welcome-mat__tiles">
                                         <li className="slds-welcome-mat__tile">
-                                            <div className="slds-media">
-                                                <div
-                                                    className="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center">
-                                                    <div className="slds-welcome-mat__tile-figure">
-                                                        <div className="slds-welcome-mat__tile-icon-container">
-                                                            <span className="slds-icon_container slds-icon-utility-animal_and_nature">
-                                                                <svg className="slds-icon slds-icon-text-default" aria-hidden="true">
-                                                                    <use xlinkHref="/icons/utility-sprite/svg/symbols.svg#animal_and_nature"></use>
-                                                                </svg>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="slds-media__body">
-                                                    <div className="slds-welcome-mat__tile-body">
-                                                        <h3 className="slds-welcome-mat__tile-title">Service Intent Designer</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <ProductWrap
+                                                name="Service Intent Designer"
+                                                imageUrl="/images/thirdparty/designer.svg"/>
                                         </li>
                                     </ul>
                                 </div>
@@ -258,25 +124,7 @@ class Home extends Component {
                                 <div className="slds-card__body slds-p-horizontal_small">
                                     <ul className="slds-welcome-mat__tiles">
                                         <li className="slds-welcome-mat__tile">
-                                            <div className="slds-media">
-                                                <div
-                                                    className="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center">
-                                                    <div className="slds-welcome-mat__tile-figure">
-                                                        <div className="slds-welcome-mat__tile-icon-container">
-                                                            <span className="slds-icon_container slds-icon-utility-animal_and_nature">
-                                                                <svg className="slds-icon slds-icon-text-default" aria-hidden="true">
-                                                                    <use xlinkHref="/icons/utility-sprite/svg/symbols.svg#animal_and_nature"></use>
-                                                                </svg>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="slds-media__body">
-                                                    <div className="slds-welcome-mat__tile-body">
-                                                        <h3 className="slds-welcome-mat__tile-title">Y-Axis</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <ProductWrap name="Y Axis" imageUrl="/images/thirdparty/y-axis.svg"/>
                                         </li>
                                     </ul>
                                 </div>

@@ -26,21 +26,21 @@
                 height: 100%;
 
             }
-            &.expose {
-                .slds-text-heading_medium {
-                    color: $expose-color;
-                }
-            }
-            &.compose {
-                .slds-text-heading_medium {
-                    color: $compose-color;
-                }
-            }
-            &.govern {
-                .slds-text-heading_medium {
-                    color: $govern-color;
-                }
-            }
+            // &.expose {
+            //     .slds-text-heading_medium {
+            //         color: $expose-color;
+            //     }
+            // }
+            // &.compose {
+            //     .slds-text-heading_medium {
+            //         color: $compose-color;
+            //     }
+            // }
+            // &.govern {
+            //     .slds-text-heading_medium {
+            //         color: $govern-color;
+            //     }
+            // }
         }
     }
 }
